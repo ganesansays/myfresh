@@ -1,0 +1,302 @@
+/*
+ *  Theme Name:   Storefront Child for MyFresh
+ *  Theme URI:    http://myfresh.g2shop.in/
+ *  Description:  Storefront Child Theme customized for myfresh
+ *  Author:	  Ganesan Gurumurthy
+ *  Author URI:
+ *  Template:     storefront
+ *  Version:      1.0.0
+ *  License:      GNU General Public License v2 or later
+ *  License URI:
+ *  Tags:
+ *  Text Domain:
+ *  */
+
+.thumbnail-quantity {
+    width: 50px;
+    margin: 3px;
+}
+
+.alreadyincart {
+    background-color: lightgray !important;
+}
+
+.header-widget-region {
+    margin-bottom: 1em;
+}
+
+.product {
+    border: 1px solid #EBF0F4;
+    padding: 5px;
+    background-color: #F7F7F7;
+    overflow: visible !important;
+}
+
+.product:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.onsale {
+    background-color: yellow;
+    color: red !important;
+    border: none !important;
+    position: absolute;
+    top: -10px;
+    left: -21px;
+    transform: rotate(-45deg);
+}
+
+.added_to_cart {
+    display: none;
+}
+
+.widget_shopping_cart {
+}
+
+.woocommerce-breadcrumb {
+    margin-bottom: .5em !important;
+}
+
+.site-header {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        border-bottom-color: rgba(0, 0, 0, 0.05) !important;
+	padding-top: 1em;
+}
+
+body {
+    background-color: white;
+}
+
+.widget h1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.dropdown_product_cat, .orderby {
+    border-color: rgba(100, 100, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.cat-menu {
+    text-align: center !important;
+    width: 100%;
+}
+
+.main-navigation ul li a {
+    padding: 0em 0em;
+}
+
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+    padding: 0em 0em;
+}
+
+.woocommerce-active .site-header .main-navigation {
+    width: 100% !important;
+}
+
+.site-header {
+    width: 100% !important;
+}
+
+.main-navigation {
+    width: 100% !important;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+.cat-name {
+    text-align: left;
+}
+
+.menu-item {
+    padding: 5px;
+}
+
+.secondary-navigation {
+    display: none !important;
+}
+
+#site-navigation {
+    display: block !important;
+}
+
+.site-logo {
+    background-image: url("http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/myfreshlogo.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 115px;
+    float: left !important;
+    background-size: 100%;
+}
+
+.css-slideshow{
+    display:none;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 768px;
+  height: auto;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 768px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+   animation: xfade 48s 42s infinite;
+   -webkit-animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+   animation: xfade 48s 36s infinite;
+   -webkit-animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+   animation: xfade 48s 30s infinite;
+   -webkit-animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+   animation: xfade 48s 24s infinite;
+   -webkit-animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+   animation: xfade 48s 18s infinite;
+   -webkit-animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+   animation: xfade 48s 12s infinite;
+   -webkit-animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+   animation: xfade 48s 6s infinite;
+   -webkit-animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+   animation: xfade 48s 0s infinite;
+   -webkit-animation: xfade 48s 0s infinite;
+}
+
+@-webkit-keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+    .site-branding {
+         display: none !important;
+    }
+
+    .widget_product_search input[type="text"] {
+	background-color: #FBF9F9 !important;
+        border: solid 1px #EFEFEF !important;
+        box-shadow: none !important;
+    }
+
+@media screen and (min-width: 768px) {
+ .site-logo {
+    width: 400px;
+    height: 150px
+ }
+.css-slideshow{
+  display: block;
+  position: relative;
+  max-width: 768px;
+  height: 320px;
+  margin: .5em auto .5em auto;
+}
+
+    .site-header-cart {
+        padding-top: 0px;
+    }
+    
+    .site-header {
+    }
+
+    .site-search {
+        width: 50% !important;
+        margin-bottom: 0px !important;
+        float: right !important;
+    }
+
+
+    .menu-item {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #FFF;
+	border-left: 1px solid lightgray;
+    }
+
+    .nav-menu {
+	color: white !important;
+	font-size: small;
+    }
+
+    .menu-newmenu-container {
+        background-color: #2DCF23;
+background-image: -moz-linear-gradient(center top , #206F3D, #348944);
+background: -webkit-gradient(linear, center top, center bottom, from(#206F3D), to(#348944));
+background: -webkit-linear-gradient(#206F3D, #348944);
+background: -moz-linear-gradient(#206F3D, #348944);
+background: -o-linear-gradient(#206F3D, #348944);
+background: -ms-linear-gradient(#206F3D, #348944);
+background: linear-gradient(#206F3D, #348944);
+    }
+}
