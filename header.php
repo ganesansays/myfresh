@@ -24,10 +24,6 @@
 	<?php
 	do_action( 'storefront_before_header' ); ?>
 
-        <!-- <?php if ( is_user_logged_in() ) { ?>
-          <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>">
-          <?php _e('My Account','woothemes'); ?></a>
-        <?php } ?> -->
 
 	<header id="masthead" class="site-header" role="banner" <?php if ( get_header_image() != '' ) { echo 'style="background-image: url(' . esc_url( get_header_image() ) . ');"'; } ?>>
 		<div class="col-full">
@@ -98,6 +94,16 @@
 	}
 
 	?>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+	<?php if ( is_user_logged_in() ) { ?>
+ 		<a class="cat-name menu nav-menu loginlink" href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>">
+           		<?php _e('My Account','woothemes'); ?></a>
+ 		<?php } 
+		else { ?>
+ 		<a class="cat-name menu nav-menu loginlink" href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login / Register','woothemes'); ?>">
+		<?php _e('Login / Register','woothemes'); ?></a>
+	<?php } ?>
+        </li>
         </ul>
         </div>
 	</nav>
@@ -110,28 +116,28 @@
         <!-- Slide Show Start -->
         <div class="css-slideshow">
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide4.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/first.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide3.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/second.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide2.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/third.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide1.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/forth.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide4.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/first.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide3.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/second.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide2.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/third.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
     <figure>
-        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/slide1.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
+        <img src="http://myfresh.g2shop.in/wp-content/uploads/sites/2/2015/03/forth.jpg" alt="class-header-css3" class="slide-image alignnone size-full wp-image-172" /><figcaption><strong></strong></figcaption> 
     </figure>
   </div>
        <?php } ?>

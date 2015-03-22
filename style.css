@@ -130,6 +130,7 @@ body {
     background-size: 100%;
 }
 
+
 .css-slideshow{
     display:none;
 }
@@ -291,12 +292,16 @@ figure:nth-child(8) {
 
     .menu-newmenu-container {
         background-color: #2DCF23;
-background-image: -moz-linear-gradient(center top , #206F3D, #348944);
-background: -webkit-gradient(linear, center top, center bottom, from(#206F3D), to(#348944));
-background: -webkit-linear-gradient(#206F3D, #348944);
-background: -moz-linear-gradient(#206F3D, #348944);
-background: -o-linear-gradient(#206F3D, #348944);
-background: -ms-linear-gradient(#206F3D, #348944);
-background: linear-gradient(#206F3D, #348944);
+        background-image: -moz-linear-gradient(center top , #7CB245, #A7CC5E);
+        background: -webkit-gradient(linear, center top, center bottom, from(#7CB245), to(#A7CC5E));
+        background: -webkit-linear-gradient(#7CB245, #A7CC5E);
+        background: -moz-linear-gradient(#7CB245, #A7CC5E);
+        background: -o-linear-gradient(#7CB245, #A7CC5E);
+        background: -ms-linear-gradient(#7CB245, #A7CC5E);
+        background: linear-gradient(#7CB245, #A7CC5E);
     }
+}
+
+.loginlink {
+    color: yellow !important;
 }
